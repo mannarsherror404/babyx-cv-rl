@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime/generated state
+cropped_objects/
+object_crops/
+*.pkl
+*.log
+
+# Model weights are downloaded/placed locally, not committed.
+*.pt
+*.onnx
+*.tflite
+
+# Local media or test captures
+*.mp4
+*.mov
+*.avi
